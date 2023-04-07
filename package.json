@@ -1,0 +1,23 @@
+{
+  "name": "backgroundgenerator",
+  "version": "1.0.0",
+  "description": "DOM manipulation of the backgroung",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BritoJV/BackgroundGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BritoJV/BackgroundGenerator/issues"
+  },
+  "homepage": "https://github.com/BritoJV/BackgroundGenerator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
